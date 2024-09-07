@@ -1,12 +1,11 @@
 // COMSC-210 | Lab 4 | Winston Jose
-//
+// https://github.com/winstonjose01/COMSC210-Lab-4-Vector-Struct/commits/main/
 
 #include <iostream>
 #include <iomanip>
 #include <vector>
 #include <random>
 using namespace std;
-
 
 struct Color {
     int red;
@@ -26,7 +25,7 @@ int main(){
     //Create an empty vector of type struct
     vector<Color> myVec(n);
     myVec.clear(); //Initialize the vector
-    
+
     // Generate random integers between 0-255 RGB color
     uniform_int_distribution<> color_distr{0,255};
     for (int i = 0; i < n; i++){
